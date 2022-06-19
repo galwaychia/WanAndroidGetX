@@ -18,7 +18,7 @@ publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 version: 1.0.0+1
 
 environment:
-  sdk: ">=2.12.0 <3.0.0"
+  sdk: ">=2.12.0 <3.0.3"
 
 dependencies:
   flutter:
@@ -35,7 +35,7 @@ dependencies:
   # Dart 中http请求的cookie管理器 https://pub.flutter-io.cn/packages/cookie_jar
   cookie_jar: ^3.0.1
   # Dio HTTP 缓存拦截器 https://pub.flutter-io.cn/packages/dio_cache_interceptor
-  dio_cache_interceptor: ^2.3.1
+  dio_cache_interceptor: ^3.2.7
   # Dio的 cookie 管理器 https://pub.flutter-io.cn/packages/dio_cookie_manager
   dio_cookie_manager: ^2.0.0
   # 用于在文件系统上查找常用位置 https://pub.flutter-io.cn/packages/path_provider
@@ -48,7 +48,7 @@ dependencies:
   # 封装好的网络日志 https://pub.flutter-io.cn/packages/pretty_dio_logger
   pretty_dio_logger: ^1.1.1
   # 屏幕适配方案 https://pub.flutter-io.cn/packages/flutter_screenutil
-  flutter_screenutil: ^5.0.0+2
+  flutter_screenutil: 5.0.0
   # flutter使用svg https://pub.flutter-io.cn/packages/flutter_svg
   flutter_svg: ^0.22.0
   # 方便使用的toast https://pub.flutter-io.cn/packages/oktoast
@@ -58,10 +58,7 @@ dependencies:
   # 拟态  https://pub.dev/packages/flutter_neumorphic
   flutter_neumorphic: ^3.2.0
   # 浮动搜索栏 https://pub.flutter-io.cn/packages/material_floating_search_bar
-  material_floating_search_bar:
-    git:
-      url: https://gitee.com/wjianhang/material_floating_search_bar
-      ref: a13127c645c77d7ab56beaa50c9b679c5c476083
+  material_floating_search_bar: ^0.3.7
   # 下拉刷新 https://pub.dev/packages/pull_to_refresh
   pull_to_refresh: ^2.0.0
   # 支持空安全的swiper https://pub.dev/packages/flutter_swiper_null_safety
